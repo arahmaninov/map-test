@@ -1,0 +1,8 @@
+{
+	"#5ce11e": "Colombia",
+	"#c5d52a": "Venezuela",
+	"#43aebc": "Ecuador",
+	"#a33dc2": "Peru",
+	"#66b24d": "Brazil",
+	"#cdb232": "Bolivia",
+}
