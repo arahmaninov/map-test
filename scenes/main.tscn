@@ -1,14 +1,14 @@
 [gd_scene load_steps=4 format=3 uid="uid://bc8a8yjil50xw"]
 
 [ext_resource type="Script" path="res://scenes/main.gd" id="1_5cyeo"]
-[ext_resource type="Texture2D" uid="uid://di1nnba4pky56" path="res://assets/SAC.png" id="2_1x650"]
+[ext_resource type="Texture2D" uid="uid://dml1453eudap" path="res://assets/sa_bottom_colors.png" id="2_3jmfy"]
 [ext_resource type="Script" path="res://scenes/Camera.gd" id="3_2dwe2"]
 
 [node name="Main" type="Node2D"]
 script = ExtResource("1_5cyeo")
 
 [node name="regions" type="Sprite2D" parent="."]
-texture = ExtResource("2_1x650")
+texture = ExtResource("2_3jmfy")
 centered = false
 
 [node name="Camera" type="Camera2D" parent="."]

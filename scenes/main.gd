@@ -24,7 +24,7 @@ func load_regions() -> void:
 	regions_image.texture = image
 	
 	var pixel_colors: Dictionary = get_pixel_colors(image)
-	var regions: Dictionary = import_json("res://assets/regions.txt")
+	var regions: Dictionary = import_json("res://assets/regions2.txt")
 	
 	for region_color in regions:
 		var region: Node = load("res://scenes/region_area.tscn").instantiate()

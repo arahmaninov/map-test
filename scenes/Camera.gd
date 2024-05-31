@@ -20,7 +20,7 @@ func _ready() -> void:
 func _unhandled_input(event: InputEvent) -> void:
 	if event is InputEventMouseMotion and event.button_mask > 0:
 		move_offset(event)
-	if event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_WHEEL_UP and zoom <= Vector2(1.2, 1.2):
+	if event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_WHEEL_UP and zoom <= Vector2(1, 1):
 		zoom_in()
 	elif event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_WHEEL_DOWN:
 		zoom_out()
